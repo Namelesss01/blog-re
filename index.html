@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="loader"></div>
+    <div id="content">
+      <div class="background overlay">
+        <video autoplay muted loop playsinline id="bg-video">
+          <source src="./money.webm" type="video/webm" />
+        </video>
+      </div>
+
+      <div
+        class="content-section d-flex justify-content-center align-items-center"
+      >
+        <div class="container">
+          <div class="center-content text-light">
+            <a
+              href="javascript:void(0);"
+              class="btn btn-lg btn-outline"
+              data-toggle="modal"
+              data-target="#subscribeModal"
+            >
+              <p class="text-btn">Дарим 1500 рублей!</p>
+              <p>
+                После прохождения бесплатного курса "Как стать блогером и
+                монетизировать трафик!"
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./javascript.js"></script>
+  </body>
+</html>
